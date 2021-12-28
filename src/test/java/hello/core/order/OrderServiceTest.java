@@ -27,9 +27,7 @@ public class OrderServiceTest {
 	}
 	
 	
-	
 	public OrderServiceTest(MemberService memberService, OrderService orderService) {
-		super();
 		this.memberService = memberService;
 		this.orderService = orderService;
 	}
